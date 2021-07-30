@@ -1,0 +1,63 @@
+<php
+
+if($_POST[subject]) {mail(ryan.spp@hotmail.co.uk, you have a message)
+
+$_POST[namee, company, subject, message]. From: email);}?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ryan's website</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+
+<body>
+    <div>
+        <a href="index.html">Home</a> 
+        <a href="projects.html">Projects</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="contact_me.html">Contact me</a>
+    </div>
+
+    <div>
+        <p>Contact me via the form below with any question or queries you may have and i'll get back to promptly!</p>
+
+
+    </div>
+
+
+    <div class="container">
+        <form action="action_page.php">
+  
+      <label for="name">Full Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Name..">
+      <br>
+  
+      <label for="email">Email Address</label>
+      <input type="text" id="email" name="lastname" placeholder="Your email address..">
+      <br>
+
+      <label for="company">Company Name</label>
+      <input type="text" id="company" name="lastname" placeholder="Your company name..">
+      <br>
+      
+      <label for="subject">Subject line</label>
+      <input type="text" id="subject_line" name="lastname" placeholder="What is this regarding?..">
+      <br>
+  
+      <textarea id="message" name="message" placeholder="Write something.." style="height:400px" style="width:200;"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+        </form>
+    </div>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,380 @@
+/* index page */
+
+.resize {width: auto;height: 950px;}
+
+    .index_background_color {background-color: 
+        rgba(121, 123, 124, 0.918)}
+    
+    .box-one {
+        position:absolute;
+        left:0px;
+        top:50px;
+        width: auto;
+        height:928px;}
+
+    .index-title {position:absolute;
+        top: 0px;
+        right: 55px;
+        font-size: 120px;
+        color: white;
+        font-family: Roboto; font-style: italic;}
+
+    .index-hobbies {position:relative;
+        top: 380px;
+        right:650px;
+        height: auto;
+        width: auto;}        
+
+    .index-projects {position:relative;
+        top: 0px;
+        right:-500px;
+            font-size: 100px;}
+
+    .index-contact {position:absolute;
+        top: 250px;
+        right:10px;
+        font-size: 100px;}
+    
+    .index-about {position:absolute;
+        top: -0px;
+        right: 530px;
+        font-size: 100px;}
+
+/* .................... */
+
+/* About me page */
+
+.section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;}
+  
+  .section h1 {
+    text-align: center;
+    font-size: 15rem;
+    font-family: "Roboto";
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+    color: rgb(55, 145, 218);}
+  .video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;}
+
+.text-roboto {font-family: "Roboto";}
+.width {width: 50%;}
+.about-size {font-size: 30px;}
+.footer-colour {background-color: slategray; width: auto;height: 350px;}
+
+.white {color: white;}
+/* about page logos */
+
+.about-background {background-color:  rgb(55, 145, 218);}
+
+    .about-hobbies {position:absolute;
+        bottom: -900px;
+        left: 550px;
+        font-size: 100px;}
+
+    .about-projects {position:absolute;
+        bottom: -900px;
+        left:60px;
+            font-size: 100px;}
+
+    .about-contact {position:absolute;
+        bottom: -900px;
+        right:50px;
+        font-size: 100px;}
+
+    .about-about {position:absolute;
+        bottom: -870px;
+        right:620px;
+        font-size: 100px;}
+
+    .about-projects_text {position:absolute;
+    bottom: -980px;
+    left:100px;
+    font-size: 50px;
+    font-style: italic;
+    color: white;}
+
+    .about-hobbies_text {position:absolute;
+    bottom: -980px;
+    left:590px;
+    font-size: 50px;
+    font-style: italic;
+    color: white;}
+
+    .about-home_text {position:absolute;
+    bottom: -980px;
+    right:660px;
+    font-size: 50px;
+    font-style: italic;
+    color: white;}
+
+    .about-contact_text {position:absolute;
+    bottom: -980px;
+    right:50px;
+    font-size: 50px;
+    font-style: italic;
+    color: white;}
+    
+
+/* icon animations and positions */
+
+.image {position:absolute;
+height: auto;
+width: auto;}
+    
+.image__img {
+display: block;
+width: 100%;
+font-family: "Roboto";
+color: white;
+font-size: 65px;}
+        
+.image__overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+color: #ffffff;
+font-family: 'Quicksand', sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+opacity: 0;
+transition: opacity 0.25s; }
+        
+.image__overlay--blur {
+backdrop-filter: blur(1000px);}
+
+.image__overlay:hover {opacity: 1;}
+
+/* icon animations and positions */
+
+.section-1 {
+background-color: rgb(55, 145, 218);
+width: 50%;
+height: 50%;
+position: absolute;
+top:px;
+left: 0px;
+}
+
+.section-2 {width: 50%;
+height: 50%;
+background: rgb(55, 145, 218);
+position: absolute;
+top: 1475px;
+right: 0px;}
+
+.hobbies-section-4 {
+    background-color: rgb(55,145, 218);
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    bottom:-1474px;
+    left: 0px;
+}
+
+ .hobbies-section-5 {
+background-color: rgb(55, 145, 218);
+width: 50%;
+height: 50%;
+position: absolute;
+bottom:-1962px;
+right: 0px;
+}
+    
+
+
+
+.salesman_position {position:absolute;
+    right: -600px;
+top: -111px;
+width: auto;
+height: 600px;}
+
+.coding_position {position:absolute;
+    left: -720px;
+bottom: 10px;
+width: auto;
+height: 450px;}
+
+.section-3 {width: 100%;
+    height: 30%;
+    background:slategray;
+    position: absolute;
+    bottom: -1279px;
+    right: 0px;}
+
+    .footer-about-hobbies {position:absolute;
+        bottom: 90px;
+        left: 30px;
+        font-size: 100px;}
+
+    .footer-about-contact {position:absolute;
+    bottom: 0px;
+    left: 1100px;
+    font-size: 100px;}
+
+
+
+    /* HOBBIES PAGE */
+    .section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;}
+  
+  .section h1 {
+    text-align: center;
+    font-size: 15rem;
+    font-family: "Roboto";
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+    color: rgb(238, 238, 238);text-shadow: black 10px 10px;}
+
+    .hobbies-section-3 {
+        background-color: rgb(55, 145, 218);
+        width: 50%;
+        height: 50%;
+        position: relative;
+        bottom:2000px;
+        left: 0px;
+        }
+  .video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;}
+
+.hobbies-video-position    {position:absolute;
+        right: -944px;
+    top: 0px;}
+
+.hobbies-text{
+    font-family: "Roboto";
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    text-align: center;
+}
+
+.hobbies-text-2{
+    font-family: "Roboto";
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 0px;
+    text-align: center;
+}
+
+.hobbies-lists{
+    font-family: "Roboto";
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 0px;
+    top: 180px;
+ 
+}
+
+.hobbies-text-3{
+    font-family: "Roboto";
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 60px;
+    top: 320px;
+    text-align: center;
+}
+.logo-position {
+    position: absolute;
+    left: -730px;
+    top: -40px;
+}
+.sports-position { position: absolute;
+    left: -1000px;
+    top: -29px;}
+
+.volunteer-text{
+font-family: "Roboto";
+font-size: 28px;
+color: white;
+position: absolute;
+top: 10px;
+left: 00px;
+text-align: center;}
+
+.volunteer-position { position: absolute;
+    right: -820px;
+    top: 15px;}
+
+
+.hobbies-footer {width: 100%;
+height: 30%;
+background:slategray;
+position: absolute;
+bottom:-2227px;
+right: -0px;}
+
+/* Projects page */
+
+.projects-section-1 {
+    background-color: rgb(55, 145, 218);
+    width: 50%;
+    height: 95%;
+    position: absolute;
+    top: 853px;
+    right: 8px;
+    }
+
+.projects-position { position: absolute;
+left: -970px;
+top: 1px;}
+
+.projects-text{
+    font-family: "Roboto";
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    text-align: center;}
+
+
+.projects-playgame {position:absolute;
+    bottom: 300px;
+    right: 300px;
+    font-size: 100px;
+color: tomato;}
+
+
+.projects-footer {width: 100%;
+    height: 30%;
+    background:slategray;
+    position: absolute;
+    bottom:-1075px;
+    right: 8px;}
+    
+
+    .footer-about-projects {position:absolute;
+        bottom: 80px;
+        left: 30px;
+        font-size: 100px;}
